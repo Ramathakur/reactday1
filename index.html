@@ -8,19 +8,7 @@
     </head>
     <body>
 
-        <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
         <div id="root"></div>
-        <script>
-            const heading1 = React.createElement("h1", {
-                id: "title"
-            }, "Heading");
-            const heading2 = React.createElement("h2", {
-                id:"tittle"
-            }, "heading2");
-            const container = React.createElement("div",{id:"container"} ,[heading1,heading2]);
-            const root = ReactDOM.createRoot(document.getElementById("root"));
-            root.render(container)
-        </script>
+        <script type="module" src="App.js"></script>
     </body>
 </html>
